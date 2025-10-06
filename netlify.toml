@@ -1,6 +1,1 @@
-[functions]
-directory = "netlify/functions"
-
-Increase the timeout to 25 seconds (the maximum is 26 for background functions)
-This gives the AI more time to process large documents without failing.
-timeout = 25
+[functions]directory = "netlify/functions"Increase the timeout to 25 seconds (the maximum is 26).This gives the AI more time to process large documents without failing.[functions."*"]timeout = 25
