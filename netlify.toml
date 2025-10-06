@@ -1,1 +1,5 @@
-[functions]directory = "netlify/functions"This sets the timeout for all functions.[functions."*"]timeout = 25
+[functions]
+directory = "netlify/functions"
+
+[functions."*"]
+timeout = 25
