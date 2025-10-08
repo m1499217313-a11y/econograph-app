@@ -1,5 +1,1 @@
-[functions]
-directory = "netlify/functions"
-
-[functions."*"]
-timeout = 25
+[functions]directory = "netlify/functions"
